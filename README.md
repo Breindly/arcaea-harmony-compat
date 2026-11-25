@@ -1,5 +1,7 @@
 # Harmony Rhythm Compatibility Layer
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 An open-source HarmonyOS compatibility and rhythm-game prototype. The project
 contains independently maintained parsing, playback, rendering and platform
 integration code.
