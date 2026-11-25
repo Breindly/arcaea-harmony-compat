@@ -53,6 +53,9 @@ with this repository. Then run:
 Set `DEVECO_HOME` when DevEco Studio is installed somewhere other than
 `D:\DevEco Studio`.
 
+The signed package is always named `ArcHarmony.hap`. The unsigned intermediate
+is named `ArcHarmony-unsigned.hap`.
+
 ## Optional resource import
 
 `tools/build_library.ps1` generates chart and metadata files from a directory

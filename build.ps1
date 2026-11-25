@@ -34,5 +34,9 @@ if ($LASTEXITCODE -ne 0) {
     throw "Build failed with exit code $LASTEXITCODE"
 }
 
-Get-ChildItem -LiteralPath 'entry\build\default\outputs\default' -Filter '*.hap' |
-    Select-Object FullName, Length, LastWriteTime
+$artifact = Join-Path $PWD 'entry\build\default\outputs\default\ArcHarmony.hap'
+if (-not (Test-Path -LiteralPath $artifact)) {
+    throw "Expected build artifact was not produced: $artifact"
+}
+
+Get-Item -LiteralPath $artifact | Select-Object FullName, Length, LastWriteTime

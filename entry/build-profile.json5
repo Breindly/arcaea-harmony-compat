@@ -28,7 +28,12 @@
     }
   ],
   "targets": [
-    { "name": "default" },
+    {
+      "name": "default",
+      "output": {
+        "artifactName": "ArcHarmony"
+      }
+    },
     { "name": "ohosTest" }
   ]
 }

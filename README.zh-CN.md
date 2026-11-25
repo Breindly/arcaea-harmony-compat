@@ -49,6 +49,9 @@
 
 如果 DevEco Studio 不位于 `D:\DevEco Studio`，请设置 `DEVECO_HOME`。
 
+签名后的安装包统一命名为 `ArcHarmony.hap`，未签名中间产物的名称为
+`ArcHarmony-unsigned.hap`。
+
 ## 可选资源导入
 
 `tools/build_library.ps1` 可以从一个你有权使用的资源目录生成谱面和元数据。

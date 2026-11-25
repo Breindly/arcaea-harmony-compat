@@ -4,6 +4,9 @@
     "products": [
       {
         "name": "default",
+        "output": {
+          "artifactName": "ArcHarmony"
+        },
         "compatibleSdkVersion": "26.0.0",
         "runtimeOS": "HarmonyOS",
         "buildOption": {
