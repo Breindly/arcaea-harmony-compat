@@ -1,0 +1,19 @@
+{
+  "name": "arcaea-harmony-compat",
+  "version": "0.1.0",
+  "ohos": {
+    "org": "community",
+    "buildTool": "hvigor",
+    "directoryLevel": "project"
+  },
+  "description": "Open HarmonyOS rhythm-game compatibility layer",
+  "license": "Apache-2.0",
+  "scripts": {
+    "boundary-check": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/check-open-source-boundary.ps1",
+    "build": "powershell -NoProfile -ExecutionPolicy Bypass -File build.ps1"
+  },
+  "dependencies": {
+    "@ohos/hvigor": "6.26.1",
+    "@ohos/hvigor-ohos-plugin": "6.26.1"
+  }
+}

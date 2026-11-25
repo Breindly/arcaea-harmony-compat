@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Rhythm Compat"
+    },
+    {
+      "name": "module_desc",
+      "value": "HarmonyOS compatibility layer"
+    },
+    {
+      "name": "ability_desc",
+      "value": "Compatibility layer main ability"
+    }
+  ]
+}

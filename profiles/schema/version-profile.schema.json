@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/arcaea-harmony/version-profile.schema.json",
+  "title": "Compatibility Version Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "profileId",
+    "versionName",
+    "versionCode",
+    "artifactSha256",
+    "abi",
+    "minimumApi"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "profileId": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]+$"
+    },
+    "versionName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "versionCode": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "artifactSha256": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "abi": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": ["arm64-v8a", "x86_64"]
+      }
+    },
+    "minimumApi": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "minimumVersion"],
+        "properties": {
+          "name": { "type": "string" },
+          "minimumVersion": { "type": "string" }
+        }
+      }
+    },
+    "resourceSchemaVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

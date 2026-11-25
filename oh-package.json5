@@ -1,0 +1,13 @@
+{
+  "modelVersion": "26.0.0",
+  "name": "arcaea-harmony-compat",
+  "version": "0.1.0",
+  "description": "Open HarmonyOS rhythm-game compatibility layer",
+  "main": "",
+  "author": "Harmony Rhythm Compatibility Layer Contributors",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hypium": "1.0.19"
+  }
+}

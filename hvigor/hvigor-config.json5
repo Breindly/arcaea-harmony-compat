@@ -1,0 +1,20 @@
+{
+  "modelVersion": "26.0.0",
+  "dependencies": {},
+  "execution": {
+    // "analyze": "normal",              /* Define the build analyze mode is: "normal" | "advanced" | false. */
+    // "daemon": true,                   /* Enable daemon compilation. True by default. */
+    // "strategy": "dynamicIncremental", /* Define the build strategy. */
+    // "typeCheck": false,               /* Enable typeCheck. */
+  },
+  "logging": {
+    // "level": "info"                   /* Define the log level. */
+    // "enableFileLog": false,           /* Whether to output logs to file. */
+  },
+  "debugging": {
+    // "stacktrace": false               /* Disable stacktrace compilation. */
+  },
+  "nodeOptions": {
+    // "maxOldSpaceSize": 8192           /* Enable nodeOptions maxOldSpaceSize compilation. */
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "libarcclient.so",
+  "types": "./index.d.ts",
+  "version": "0.1.0",
+  "description": "arc-core NAPI 类型声明"
+}

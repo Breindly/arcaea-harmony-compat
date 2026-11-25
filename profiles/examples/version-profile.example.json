@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "profileId": "example-arm64-api26",
+  "versionName": "0.1.0",
+  "versionCode": 1,
+  "artifactSha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "abi": ["arm64-v8a"],
+  "minimumApi": 26,
+  "dependencies": [
+    {
+      "name": "harmonyos-native-media",
+      "minimumVersion": "6.0"
+    }
+  ],
+  "resourceSchemaVersion": 1,
+  "notes": "Synthetic example only."
+}

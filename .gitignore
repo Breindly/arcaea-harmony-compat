@@ -1,0 +1,44 @@
+# HarmonyOS build output and local tooling state
+build/
+.hvigor/
+.cache/
+.idea/
+.preview/
+node_modules/
+oh_modules/
+local.properties
+local.properties.*
+signing/
+
+# Game packages, native libraries, archives and imports
+*.hap
+*.apk
+*.app
+*.hsp
+*.zip
+*.so
+*.a
+*.dll
+*.dylib
+*.exe
+*.obj
+*.o
+*.dmp
+Crash_*
+
+# User save data and runtime data
+prefs.txt
+st3
+arcinf_cfg
+payload/
+assets/
+
+# Logs, crash dumps and secrets
+*.log
+*.p12
+*.cer
+*.p7b
+*.pem
+*.key
+.env
+.env.*
